@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Current working directory: $(pwd -P)"
+echo "0x00-shell_basics: $(pwd -P)"
