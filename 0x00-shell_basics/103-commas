@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1 --ignore=.* | sort -r | awk '/^[^\.]/ {printf "%s, ", $0} /^\.\.$/ {printf "%s, ", $0} /^\.$/ {printf "%s\n", $0}'
+ls -amp
